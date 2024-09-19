@@ -29,7 +29,6 @@ console.log(index);
 console.log(recipe);
  // Open a new tab with the recipe details
 window.open(`/details.html?recipe=${recipe.id}`, '_blank');
-
 });
 });
  });
