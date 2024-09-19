@@ -28,7 +28,7 @@ const recipe = recipesData.recipes.find(recipe => recipe.id === parseInt(index))
 console.log(index);
 console.log(recipe);
  // Open a new tab with the recipe details
-window.open(`/deeygitalstudio.github.io/details.html?recipe=${recipe.id}`, '_blank');
+window.open(`/details.html?recipe=${recipe.id}`, '_blank');
 
 });
 });
