@@ -10,7 +10,7 @@ fetch('https://dummyjson.com/recipes').then((data) => {
   <div class="card-body">
     <h5 class="card-title">${recipe.name}</h5>
     <p class="card-text">${recipe.ingredients.slice(0, 3).join(', ')}...</p>
- <button class="btnel --btn-success " data-index=${recipe.id}>Learn More</button>
+ <a href='/details.html' class="btnel --btn-success " data-index=${recipe.id}>Learn More</a>
 
   </div>
 </div>
