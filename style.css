@@ -1,0 +1,81 @@
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(7, 136, 56);
+    
+}
+
+.navbar{
+    background-color: #fff;
+    z-index: 999;
+}
+
+.hero{
+    background-image: linear-gradient(#16161674, #16161674),url('./image/delicious-lobster-gourmet-seafood.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.hero h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.recipe h1{
+font-size: 35px;
+    font-weight: 600;
+    color: rgb(7, 136, 56);
+}
+
+#recipes{
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.card-body p{
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.list-group li{
+    font-size: 13px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-body a{
+    margin-top: 10px;
+}
+
+.recipe{
+    margin: auto;
+}
+
+#img{
+    width:100%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+ 
